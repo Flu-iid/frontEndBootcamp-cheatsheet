@@ -186,7 +186,8 @@ JSON.stringify() //turn obj to str
 ```
 ## turn obj to array
 ```js
-Object.key(v) //keys
+v = {}
+Object.keys(v) //keys
 Object.values(v) //values
 Object.enteries(v) //puts each key,value into an array and all in obj
 ```

@@ -70,6 +70,17 @@ $item: 0;
 
 # JS
 
+> 8 data types
+- Primitives :
+    + string
+    + number
+    + bigint
+    + boolean
+    + null
+    + undefined
+    + symbol
+- Object
+
 > jsbin.com
 
 > remember js is dynamic so dont wory if sometimes doesnt make sense as others
