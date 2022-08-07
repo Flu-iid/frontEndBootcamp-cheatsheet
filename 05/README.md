@@ -1,4 +1,3 @@
-# ES6
 `var => let, const`
 > var can be accessed after (for) and (if), if it was declared in (for) and (if)
 > let and const aren't declare tolerant
@@ -17,7 +16,7 @@ const fn = () => {
 
 function fn() { return result}
 
-const fn = () => result //with arrow function with 1 argument u can put parentheses or not
+const fn = () => result //with arrow function with 1 line-code u can put parentheses or not
 ```
 > for array and Obj use `const`
 
@@ -67,7 +66,7 @@ and more in video
 better rendering (1-99 + 100 example)
 
 ## Negative facts
-> `<div if="root"> side content  </div>` SEO Problem
+> `<div id="root"> side content  </div>` SEO Problem
 
 **to solve it**
 vercel Co. (pronounces ver-sel) -> NEXT.js framework (renders codes on server-side)
@@ -88,6 +87,8 @@ ssg -> Server Side Generating (generate html)
 > version control of react project packages
 
 > `npm i` when u have package.json to get react packages (node_modules)
+
+> `npm install <package> --save-dev` to save developer version in package.json
 
 9.9.9 major minor patch  
 ~ latest patch  
@@ -168,9 +169,9 @@ object = {name: "ali"} -> only values are showable
 ##
 > React 18+ renders component 2 times
 
-> on function calls in react different from HTML, function has to call without parenthesis -> {fn} or {() => fn()}
+> on function calls in react different from HTML, function has to call without parenthesis -> {fn} or {() => {}}
 
-## State
+## State (a hook)
 > to tell react to change variables on events
 
 ```js
@@ -190,10 +191,10 @@ function App() {
 
     console.log("first" + num);
 
-    const plus = ( => {
+    const plus = () => {
         setNum((Last) => Last +1);
         console.log("second" + num);
-    });
+    };
     // React first does the function then stores the value in State. so second is 1 number behind first.
 }
 ```
@@ -241,9 +242,6 @@ export default App;
 # CSS React
 > if css is imported in one component, it will be global in all components. (unless you restrict it).
 
-**react-motion**  
-**swiper**
-
 > React inline style -> style{{ color:"red" }}
 
 ## Restricted css
@@ -282,9 +280,13 @@ function App() {
 }
 ```
 > **react motion**  
-> **swiper**
+> **sweeper**
 
+# in-project
+```js
+onSubmit={(event)=>{(event).preventDefault()}} //prevent form from refreshing
 
+```
 
 
 

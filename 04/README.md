@@ -230,6 +230,9 @@ navigator //
 
 .innerText //only includes and shows text
 .innerHTML //can include tags and show them
+
+const element = document.querySelector('.element')
+const style = getComputedStyle(element)//get computed style
 ```
 > [Adruino IoT](https://create.arduino.cc/projecthub/products/arduino-iot-cloud)
 
@@ -241,6 +244,7 @@ var sec = 0;
 var min = 0;
 var hour = 0;
 var flag = true;
+var time;
 function Start() {
     if (flag) {
         time = setInterval(function () {
@@ -285,7 +289,7 @@ function change() {
 }
 ```
 
-# AJAX => `async javascript xlm`
+# AJAX => `async javascript xml`
 > `xmlHTTPrequest` old requests
 > `fetch()` (form of `Promise`)
 >> 500 server | 400 | 200 success

@@ -71,7 +71,7 @@ function myfn(x,y){
 .forEach(function(item, index, array){
      
 })
-// nop return
+// no return
 
 numbers.forEach(function(item,idex,array){
     number[index] = item * 2
